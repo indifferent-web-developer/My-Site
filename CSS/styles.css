@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1,
+h2 {
+  color: #12d3cf;
+}
+h3,
+a {
+  color: #67eaca;
+}
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  line-height: 2;
+}
+hr {
+  width: 10vw;
+  border: none;
+  border-top: 6px dotted #eaf6f6;
+}
+.top-container {
+  background-color: #fcf9ec;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  padding: 50px;
+}
+.bottom-container {
+  padding: 50px 0 30px;
+  background: #fcf9ec;
+}
+.intro {
+  width: 30vw;
+  margin: auto;
+}
+.design {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.skill-row {
+  width: 50vw;
+  padding-bottom: 50px;
+  margin: 75px auto;
+  text-align: left;
+}
+.front-img {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.back-img {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 25px;
+}
+.profile-img {
+  border-radius: 50%;
+}
+.profile {
+  width: 50vw;
+  padding-top: 50px;
+  margin: 0 auto 100px auto;
+}
+.skills {
+  margin: 100px auto;
+}
+.contact-me {
+  margin: 100px auto 0 auto;
+}
+.btn {
+  background: #3b6978;
+  background-image: linear-gradient(to top, #3b6978, #12d3b1);
+  border: solid #204051 2px;
+  box-shadow: 1px 1px 2px 0 #111;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  border-radius: 10px;
+  padding: 16px;
+  cursor: pointer;
+  margin: 30px;
+}
+.btn:hover {
+  background: #12d3b1;
+  background-image: linear-gradient(to top, #12d3b1, #3b6978);
+}
+.footer-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 25px;
+  margin-bottom: 15px;
+}
+.footer-link:hover {
+  color: #ddd;
+}
+.copyright {
+  font-size: 0.8rem;
+}
